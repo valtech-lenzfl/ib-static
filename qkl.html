@@ -31,9 +31,10 @@
         }
 
         .square {
-            height: calc(0.6rem * var(--scale));
-            width: calc(0.6rem * var(--scale));
-            position: fixed;
+            --size: calc(0.6rem * var(--scale));
+            height: var(--size);
+            width: var(--size);
+            position: absolute;
             top: 0;
             left: 0;
             background-color: #0A3547;
