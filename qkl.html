@@ -25,6 +25,15 @@
             width: 100%;
             height: 100%;
         }
+
+        .square {
+            height: 0.6rem;
+            width: 0.6rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #0A3547;
+        }
     </style>
 </head>
 
@@ -33,6 +42,10 @@
         <iframe frameborder="0" scrolling="no"
             src="https://login.stadtradeln.de/specials/radelmeter/team/56423?L=0"></iframe>
     </div>
+    <div class="square"></div>
+    <div class="square" style="top: calc(415px - 0.6rem);"></div>
+    <div class="square" style="left: calc(415px - 0.6rem);"></div>
+    <div class="square" style="top: calc(415px - 0.6rem); left: calc(415px - 0.6rem);"></div>
 </body>
 
 </html>
